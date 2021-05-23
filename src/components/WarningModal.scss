@@ -1,0 +1,20 @@
+.warning-modal-wrapper {
+  margin: 32px 32px 24px 72px;
+  width: 296px;
+  height: auto;
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin-bottom: 24px;
+    font-weight: 400;
+  }
+
+  svg {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+  }
+}

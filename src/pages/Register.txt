@@ -1,0 +1,53 @@
+// Alternative for Register.js (Styling Still Break)
+
+import { Logo } from '../components/UI/Logo'
+import { Link } from 'react-router-dom'
+import './LoginRegister.scss'
+
+const Register = () => {
+  return (
+    <div className='login-page'>
+      <div className='logo-wrapper'>
+        <Logo width={200} height={200}></Logo>
+        <h1>Kanbankeun</h1>
+        <p>Organize your task with us</p>
+      </div>
+
+      <div className='d-flex flex-column align-items-center'>
+        <form>
+          <div className='d-flex'>
+            <div>
+              <label for='name'>Name</label>
+              <input className="input-form" type='text' name='email' placeholder='Enter your name'></input>
+            </div>
+            <div>
+              <label for='email'>Email address</label>
+              <input className="input-form" type='text' name='email' placeholder='Enter a valid email address'></input>
+            </div>
+          </div>
+          <div className='d-flex'>
+            <div>
+              <label for='email'>Password</label>
+              <input className='input-form' type='password' placeholder='Enter password'></input>
+            </div>
+            <div>
+              <label for='name'>Confirm your password</label>
+              <input className="input-form" type='text' name='email' placeholder='Re-enter password'></input>
+            </div>
+          </div>
+          <button className='login-button'>Register</button>
+        </form>
+
+        <div className='mt-4 register-group'>
+          <p className='d-inline-flex'>Do you have an account ?</p>
+          <Link to='/v1/login'>
+            <p className='d-inline-flex ml-1 register-text'>Login</p>
+          </Link>
+        </div>
+      </div>
+
+    </div >
+  )
+}
+
+export default Register

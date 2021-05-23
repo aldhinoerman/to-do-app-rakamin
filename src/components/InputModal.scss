@@ -1,0 +1,76 @@
+.input-modal-wrapper {
+  margin: 28px 29px 27.5px 33px;
+  height: auto;
+
+  ::placeholder {
+    color: #e5e5e5;
+  }
+
+  h2 {
+    margin-bottom: 21px;
+  }
+
+  label {
+    display: block;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 16.34px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #5d6372;
+  }
+
+  input {
+    border-radius: 4px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+  }
+
+  .task-name-text {
+    width: 505px;
+    margin-bottom: 7px;
+  }
+
+  .progress-text {
+    width: 99px;
+    margin-bottom: 43.5px;
+  }
+
+  .description-text {
+    width: 505px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 16.34px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    color: #5d6372;
+  }
+
+  .field-message,
+  .progress-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      margin-left: 5px;
+
+      path {
+        fill: #eb5757;
+      }
+    }
+
+    p {
+      margin: 0;
+      font-size: 10px;
+      margin-left: 4px;
+      color: #eb5757;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --light-pink: #fff9fb;
+  --pink: #eb2f96;
+  --light-purple: #fcfafd;
+  --purple: #7b61ff;
+  --light-blue: #f7faff;
+  --blue: #2f54eb;
+  --light-green: #f8fef1;
+  --green: #52c41a;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', Courier, monospace;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#root {
+  display: flex;
+  width: auto;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  border-radius: 4px;
+}

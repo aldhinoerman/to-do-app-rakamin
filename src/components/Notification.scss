@@ -1,0 +1,55 @@
+.notif-wrapper {
+  display: flex;
+  top: 10px;
+  right: 3%;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  position: fixed;
+  align-items: center;
+  padding: 8px;
+  animation-name: notif-fadein-fadeout;
+  animation-duration: 1.5s;
+  border-radius: 4px;
+  z-index: 9999;
+
+  path {
+    fill: white;
+  }
+
+  p {
+    color: white;
+    margin: 5px 10px 5px 20px;
+  }
+}
+
+.notif-danger {
+  background-color: rgba(#eb5757, 0.6);
+
+  p {
+    color: white;
+  }
+}
+
+.notif-success {
+  background-color: rgba(#27ae60, 0.6);
+
+  p {
+    color: white;
+  }
+}
+
+@keyframes notif-fadein-fadeout {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

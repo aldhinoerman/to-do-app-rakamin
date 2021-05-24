@@ -1,6 +1,7 @@
 {
   "name": "to-do-app-rakamin",
   "version": "0.1.0",
+  "homepage": "https://to-do-app-rakamin.vercel.app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.1.5",
